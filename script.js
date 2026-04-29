@@ -1,24 +1,16 @@
-function buscar_alunos(){
-  fetch('dados.json')
-     .then(response => response.json())
-     .then(ddd => {
+function busca_alunos(){
+    fetch('dados.json')
+        .then(response => response.json())
+        .then(ddd => {
+        tablet = document.getElementById('lugar');
+        ddd.forEach(pessoainha => {
+            let linha = document.createElement('tr');
+            linha.innerHTML =
+                "<td>" + pessoainha.nome + "</td>" +
+                "<td>" + pessoainha.idade + "</td>" +
+                "<td>" + pessoainha.personalidade + "</td>";
+            tablet.appendChild(linha);
+        });
 
-    banana = document.getElementById('lugar');
-
-    ddd.forEach(pessooainha =>{
-        let linha = document.createElement('tr');
-
-        linha.innerHTML=
-        "<td>" +pessooainha.nome + "</td>" +
-        "<td>" +pessooainha.idade + "</td>" +
-        "<td>" +pessooainha.personalidade + "</td>";
-        tablet.appendchild(linha);
-    })
-});
-
-
+})
 }
-
-   
-
-
