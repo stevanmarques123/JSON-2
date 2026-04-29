@@ -1,6 +1,18 @@
+[
 {
-    "nome": "jose",
+    "nome" : "José",
     "idade":15,
-    "personalidade": "chato"
-
+    "personalidade":"Chato pa carfalho"
+},
+{
+    "nome":"Herasmo",
+    "idade":13,
+    "personalidade":"fofinho,sqn"
+},
+{
+    "nome": "Felipe",
+    "idade":14,
+    "personalidade":"Guarujira"
+   
 }
+]
