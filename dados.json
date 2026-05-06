@@ -1,18 +1,25 @@
 [
 {
-    "nome" : "José",
-    "idade":15,
-    "personalidade":"Chato pro"
+    "imagem" :"aura.png",
+    "nome":"",
+    "preço":"00",
+    "descriçao":"descriçao",
+    "endereço":"produto final"
+    
 },
 {
-    "nome":"Herasmo",
-    "idade":13,
-    "personalidade":"sigma"
+   "imagem" :"aura.png",
+    "nome":"",
+    "preço":"00",
+    "descriçao":"descriçao",
+    "endereço":"produto final"
 },
 {
-    "nome": "Felipe",
-    "idade":14,
-    "personalidade":"Guarujira"
+    "imagem" :"aura.png",
+    "nome":"",
+    "preço":"00",
+    "descriçao":"descriçao",
+    "endereço":"produto final"
    
 }
 ]
